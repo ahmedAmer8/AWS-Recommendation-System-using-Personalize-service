@@ -1,4 +1,11 @@
+<<<<<<< HEAD
 # AWS Movie Recommendation System Using Personalize fully management service
+=======
+
+# Building a Movie Recommender with Amazon Personalize and MovieLens: An End-to-End Guide
+
+This document provides a complete walkthrough for building a powerful movie recommendation engine using Amazon Personalize. We will start with a well-known public dataset (MovieLens), process it into the required format, set up all the necessary AWS infrastructure, and overcome the most common and frustrating permission errors that developers face.
+>>>>>>> 609f86cb2eea4e04a165b3cfafa3bc947d5f4d73
 
 ### **Project Goal:**
 To build and deploy a movie recommendation system by training a machine learning model on user interaction data.
@@ -325,3 +332,17 @@ project-root/
 ```
 
 ---
+<<<<<<< HEAD
+=======
+
+## Next Steps: Training and Deployment
+
+You have successfully laid all the groundwork! Your data is now securely in Amazon Personalize, and you are ready for the machine learning phase. The subsequent steps are:
+
+1.  **Create a Solution:** Choose a "recipe" (algorithm), like `aws-user-personalization`, and train a model version on your imported data.
+2.  **Create a Campaign:** Deploy your trained model version to a real-time, scalable API endpoint.
+
+`[Image Placeholder 12: A composite image showing the "Create solution" and "Create campaign" screens in the Personalize console.]`
+
+By following this guide, you have not only prepared your data and infrastructure correctly but have also conquered the critical permissioning challenges that block so many projects. You are now well on your way to generating powerful movie recommendations.
+>>>>>>> 609f86cb2eea4e04a165b3cfafa3bc947d5f4d73
