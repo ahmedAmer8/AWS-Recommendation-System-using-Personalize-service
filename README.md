@@ -1,8 +1,3 @@
-Of course. Congratulations on successfully navigating the entire process! Capturing that journey in a comprehensive document is an excellent idea.
-
-Here is a detailed, end-to-end guide in Markdown format that chronicles the entire workflow, from data preparation to solving the critical S3 permission issue and setting up your recommender's foundation.
-
-***
 
 # Building a Movie Recommender with Amazon Personalize and MovieLens: An End-to-End Guide
 
