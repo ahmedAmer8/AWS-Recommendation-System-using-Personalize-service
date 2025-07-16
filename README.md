@@ -82,7 +82,7 @@ user_id,item_id,event_type,timestamp
     "Id": "PersonalizeS3BucketAccessPolicy",
     "Statement": [
         {
-            "Sid": "AllowPersonalizeS3Access",
+            "Sid": "PersonalizeS3BucketAccessPolicy",
             "Effect": "Allow",
             "Principal": {
                 "Service": "personalize.amazonaws.com"
@@ -316,6 +316,7 @@ The comprehensive deployment plan outlines a path from proof-of-concept to produ
 ## Repository Structure
 ```
 project-root/
+├── images/   # 12 pictures of my AWS console steps to system
 ├── movielens_dataset.csv
 ├── interactions.csv
 ├── scripts/
